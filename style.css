@@ -13,6 +13,13 @@
     box-sizing: border-box;
 	user-select: none;
 }
+.frontImage:hover{
+    opacity: 1;    
+}
+.frontImage{
+    opacity: 0;
+    transition: 0.5s;
+}
 header
 {
     position: fixed;
