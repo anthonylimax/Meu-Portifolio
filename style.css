@@ -275,12 +275,14 @@ body
     }
 }
 @media (width < 1000px) {
-    .InitialScreen{
-    }
     [data-letter="pop-letter"].active{
         animation-name: animacaoLetter;
         animation-duration: 0.5s;
         font-size: 2rem;
+    }
+    [data-letter="pop-letter"].animation{
+        animation-name: animacaoLetterHover;
+        animation-duration: 0.4s;
     }
     .WhoAmI--About{
         width: 200px;
